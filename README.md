@@ -2,9 +2,9 @@
 
 [![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-Anemometer-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-Anemometer-Arduino-Library/actions/workflows/make_docs.yml)
 
-| ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
+| ![Anemometer wind speed sensor](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------: |
-| [NAZIV PROIZVODA](https://www.solde.red/SKU)                                                            |
+| [Anemometer wind speed sensor](https://www.solde.red/SKU)                                       |
 
 Anemometer wind speed sensor.
 
