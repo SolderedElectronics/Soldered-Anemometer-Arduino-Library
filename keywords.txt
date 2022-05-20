@@ -1,16 +1,23 @@
 ##################################################
-# Syntax Coloring Map For Obstacle-Sensor-SOLDERED
+# Syntax Coloring Map For Anemometer-SOLDERED
 ##################################################
 
 ##################################################
 # Datatypes (KEYWORD1)
 ##################################################
 
+Anemometer KEYWORD1
+
 ##################################################
 # Methods and Functions (KEYWORD2)
 ##################################################
 
 begin	KEYWORD2
+getWindSpeed  KEYWORD2
+getWindRPM KEYWORD2
+setUnit KEYWORD2
+getUnit KEYWORD2
+
 
 ##################################################
 # Constants (LITERAL1)
