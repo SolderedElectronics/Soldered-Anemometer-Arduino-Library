@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['defaultaddress_0',['defaultAddress',['../class_easy_c.html#a9052ae674b3553bbb19283278299f395',1,'EasyC']]]
+  ['unit_0',['unit',['../class_anemometer.html#a11093340b4ce73c80fdd5c799225707c',1,'Anemometer']]]
 ];

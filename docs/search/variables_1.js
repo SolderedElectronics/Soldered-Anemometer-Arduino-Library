@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['begindone_0',['beginDone',['../class_easy_c.html#a2f55de657a84e73edda23dae91d30436',1,'EasyC']]]
+  ['pin_0',['pin',['../class_anemometer.html#a4fecd50d7c621cb639739ca76cd2f877',1,'Anemometer']]]
 ];
