@@ -33,14 +33,14 @@ void Anemometer::initializeNative()
 
 /**
  * @brief                   Function which gets rotation speed.
- * 
+ *
  * @return                  Anemometer rotation speed in RPM
  */
 float Anemometer::getWindRPM()
 {
     uint32_t low, high;
     low = pulseIn(pin, LOW, 1000000);
-    if(low)
+    if (low)
     {
         high = pulseIn(pin, HIGH, 1000000);
         return (1.0 / (high + low) * 1000000) / 16.0;
@@ -53,7 +53,7 @@ float Anemometer::getWindRPM()
 
 /**
  * @brief                   Funtion which chooses unit for measure.
- * 
+ *
  * @param uint8_t _unit     Measuring unit (KMH,MPH,MS,KNOT)
  */
 void Anemometer::setUnit(uint8_t _unit)
@@ -63,7 +63,7 @@ void Anemometer::setUnit(uint8_t _unit)
 
 /**
  * @brief                   Funtion which gets unit for measure.
- * 
+ *
  * @return                  Measuring unit (KMH = 0,MPH = 1,MS = 2,KNOT = 3)
  */
 uint8_t Anemometer::getUnit()
@@ -73,7 +73,7 @@ uint8_t Anemometer::getUnit()
 
 /**
  * @brief                   Funtion which gets wind speed.
- * 
+ *
  * @return                  Wind speed in choosen unit.
  */
 float Anemometer::getWindSpeed()
