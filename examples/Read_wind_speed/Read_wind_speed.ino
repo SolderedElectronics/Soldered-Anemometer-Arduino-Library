@@ -5,7 +5,7 @@
  * @brief       Example reading wind speed and setting 
  *              measuring unit
  *
- *
+ * @link        product: www.soldered.com/333196
  *
  * @authors     Goran Juric @ soldered.com
  ***************************************************/
@@ -14,7 +14,16 @@
 
 #define ANEMOMETER_PIN 9 // Set anemometer pin to 9
 
-Anemometer anemometer(ANEMOMETER_PIN); // Make andemometer object and specify pin on which is connected
+Anemometer anemometer(ANEMOMETER_PIN); // Make anemometer object and specify pin on which is connected
+                                       // This anemometer has rotary encoder attached to rotating shaft and
+                                       // optical sensor which senses rotation. More about rotary encoder
+                                       // can be found here: https://en.wikipedia.org/wiki/Rotary_encoder
+                                       // As shaft is rotating, rotary encoder is interrupting light source
+                                       // and optical sensor senses pulses of light and measures lasting of
+                                       // them and converts that pulses into rotating speed which is later
+                                       // converted to wind speed in desired unit. Because some pulses are 
+                                       // too long (when wind blows really slow) MCU will ignore low speeds
+                                       // of wind.
 
 void setup()
 {

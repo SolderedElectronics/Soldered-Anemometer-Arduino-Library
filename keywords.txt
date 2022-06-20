@@ -1,24 +1,25 @@
 ##################################################
-# Syntax Coloring Map For Anemometer-SOLDERED
+# Syntax Coloring Map Anemometer-SOLDERED
 ##################################################
 
 ##################################################
-# Datatypes (KEYWORD1)
+# Datatypes 		(KEYWORD1)
 ##################################################
-
-Anemometer KEYWORD1
-
+Anemometer		KEYWORD1
 ##################################################
 # Methods and Functions (KEYWORD2)
 ##################################################
 
-begin	KEYWORD2
-getWindSpeed  KEYWORD2
-getWindRPM KEYWORD2
-setUnit KEYWORD2
-getUnit KEYWORD2
-
+getWindSpeed	    		  KEYWORD2
+getWindRPM		    KEYWORD2
+setUnit		    KEYWORD2
+getUnit		    KEYWORD2
 
 ##################################################
 # Constants (LITERAL1)
 ##################################################
+
+KMH	LITERAL1
+MPH	LITERAL1
+MS	LITERAL1
+KNO	LITERAL1
